@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coverity-submit-net", "coverity-submit-net\coverity-submit-net.csproj", "{6063D1A7-E51B-4009-A4FE-13969E09F569}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C935F259-0B1D-4C7E-8329-048286A63226}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +19,7 @@ Global
 		{6063D1A7-E51B-4009-A4FE-13969E09F569}.Debug|x86.Build.0 = Debug|x86
 		{6063D1A7-E51B-4009-A4FE-13969E09F569}.Release|x86.ActiveCfg = Release|x86
 		{6063D1A7-E51B-4009-A4FE-13969E09F569}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
