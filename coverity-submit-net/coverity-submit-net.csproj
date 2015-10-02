@@ -43,4 +43,10 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebClient\WebClient.csproj">
+      <Project>{47C1D318-90F3-44DC-8307-9A4ADC556E2E}</Project>
+      <Name>WebClient</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
